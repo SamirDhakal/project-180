@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = "https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+        
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet"> <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+        <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css" type="text/css">
+
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-sm-12 col-md-12 col-lg-12 text-center p-5">
+                    <h1>AR WEATHER</h1>
+                </div>
+                <div class = "col-sm-12 col-md-12 col-lg-12 text-center">
+                    <div id = "map"></div>
+                </div>
+            </div>
+            <div>
+                <img id = "amber" class = "image-marker" src = "./assets/AmberFort.jpg"/>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center p-5">
+                <button id="navigate-button">Show Me The Weather</button>
+            </div>
+        </div>
+
+        <link rel = "stylesheet" href = "./style.css">
+        <script src = "./main.js"></script>
+    </body>
+</html>
